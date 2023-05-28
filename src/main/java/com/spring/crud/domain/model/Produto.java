@@ -25,4 +25,8 @@ public class Produto {
     @Column(name = "preco_centavos")
     private int precoCentavos;
 
+    private boolean ativo;
+
+
+
 }

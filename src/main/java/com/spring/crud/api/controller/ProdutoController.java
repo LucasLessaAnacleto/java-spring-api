@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -45,6 +46,22 @@ public class ProdutoController {
     public ResponseEntity<ProdutoModel> atualizaProduto(@PathVariable Long produtoId, @RequestBody ProdutoInput produtoInput) {
         
         return ResponseEntity.ok( produtoServices.atualizar(produtoId, produtoInput) );
+
+    }
+
+    @DeleteMapping("/{produtoId}")
+    public ResponseEntity<Void> deletaProduto(@PathVariable Long produtoId) {
+
+        produtoServices.deletar(produtoId);
+
+        return ResponseEntity.noContent().build();
+
+    }
+
+    @PostMapping("/{produtoId}")
+    public ResponseEntity<ProdutoModel> ativaProduto(@PathVariable Long produtoId) {
+
+        return ResponseEntity.ok( produtoServices.ativar(produtoId) );
 
     }
 

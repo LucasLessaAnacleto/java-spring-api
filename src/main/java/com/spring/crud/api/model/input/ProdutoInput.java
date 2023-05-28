@@ -9,8 +9,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ProdutoInput {
-    
-    private Long id;
 
     @NotBlank
     private String nome;
