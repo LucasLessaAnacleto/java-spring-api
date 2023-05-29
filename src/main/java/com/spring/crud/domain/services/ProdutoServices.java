@@ -59,7 +59,7 @@ public class ProdutoServices {
     }
 
     @Transactional
-    public void deletar(Long produtoId) {
+    public void desativar(Long produtoId) {
 
         Produto produto = pegaProduto(produtoId);
 

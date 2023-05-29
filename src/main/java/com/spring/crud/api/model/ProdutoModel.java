@@ -13,6 +13,4 @@ public class ProdutoModel {
 
     private int precoCentavos;
 
-    private boolean ativo;
-
 }

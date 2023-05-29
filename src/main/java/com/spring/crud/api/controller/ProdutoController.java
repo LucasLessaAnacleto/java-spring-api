@@ -50,9 +50,9 @@ public class ProdutoController {
     }
 
     @DeleteMapping("/{produtoId}")
-    public ResponseEntity<Void> deletaProduto(@PathVariable Long produtoId) {
+    public ResponseEntity<Void> desativaProduto(@PathVariable Long produtoId) {
 
-        produtoServices.deletar(produtoId);
+        produtoServices.desativar(produtoId);
 
         return ResponseEntity.noContent().build();
 
