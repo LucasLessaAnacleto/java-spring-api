@@ -13,5 +13,7 @@
   + **Spring Boot:** simplifica a inicialização de projetos, gerenciamento de dependências e configuração do ambiente de execução.<br><br>
   + **Spring Data JPA:** Ele oferece um modelo de programação simplificado para realizar operações de CRUD e consultas em bancos de dados, eliminando a necessidade de escrever consultas SQL.<br><br>
   + **Spring Web:**  Ele inclui suporte para criação de controladores, gerenciamento de rotas, manipulação de solicitações e respostas HTTP, conversão de dados, validação de entrada, entre outros. <br><br>
+  + **Lombok:** É uma biblioteca que oferece recursos para simplificar o desenvolvimento de software, reduzindo a quantidade de código boilerplate (código repetitivo).<br><br>
+  + **ModelMapper:** Biblioteca para mapeamento entre objetos em diferentes camadas de um aplicativo, como objetos de transferência de dados (DTOs) para entidades de banco de dados, ou vice-versa.<br><br>
   + **MySQL:** Foi o banco de dados utilizado para gerencias os produtos do projeto, juntamente com o *Workbench* que foi a ferramenta de modelagem e administração do banco de dados. <br><br> 
   + **PostMan:** Foi utilizado para fazer as requisições HTTP e testar minha API.<br><br>
