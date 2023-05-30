@@ -20,7 +20,11 @@
   + **FlyWay:** É uma ferramenta de migração de banco de dados que permite gerenciar e versionar as alterações de esquema do banco de dados de forma fácil e automatizada.<br><br>
 
 + ### Funcionalidades:<br><br>
-  + #### O método Get do HTTP trás uma coleção de produtos<br> existentes no banco de dados:<br>
+  + #### O método Get do HTTP trás uma coleção de produtos<br> existentes e ativos no banco de dados:<br>
 <img src="https://github.com/LucasLessaAnacleto/LucasLessaAnacleto/blob/main/utils/java-spring-api/get_listar.jpg" height=600><br><br>
-+ #### O método Post do HTTP recebe um corpo contendo o nome e o preço em centavos do produto e<br> cria um novo item no banco de dados:<br>
-<img src="https://github.com/LucasLessaAnacleto/LucasLessaAnacleto/blob/main/utils/java-spring-api/post_adicionar.jpg" height=600>
+  + #### O método Post do HTTP recebe um corpo contendo o nome e o preço em centavos do produto e<br> cria um novo item no banco de dados:<br>
+<img src="https://github.com/LucasLessaAnacleto/LucasLessaAnacleto/blob/main/utils/java-spring-api/post_adicionar.jpg" height=600><br><br>
+  + #### O método Put recebe um corpo contendo o nome e o preço em centavos do produto e<br> altera o produto com base do identificador passado na URL:<br>
+<img src="https://github.com/LucasLessaAnacleto/LucasLessaAnacleto/blob/main/utils/java-spring-api/put_atualizar.jpg" height=600><br><br>
+  + #### O método Delete torna o produto inativo com base no identificador passado na URL:<br>
+<img src="https://github.com/LucasLessaAnacleto/LucasLessaAnacleto/blob/main/utils/java-spring-api/delete_desativar.jpg" height=600>
